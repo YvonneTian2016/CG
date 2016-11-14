@@ -1,0 +1,5 @@
+/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/sriravic/Downloads/final project/build_xcode/src/common/CMakeFiles/common.dir
+/Users/sriravic/Downloads/final project/build_xcode/src/apps/CMakeFiles/01_raytrace.dir
+/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src/CMakeFiles/glfw.dir

@@ -1,0 +1,5 @@
+/Users/sriravic/Desktop/assignments/computergraphics_cosc177/assignment_04_final/assignment01/build/src/common/ext/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/sriravic/Desktop/assignments/computergraphics_cosc177/assignment_04_final/assignment01/build/src/common/ext/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/sriravic/Desktop/assignments/computergraphics_cosc177/assignment_04_final/assignment01/build/src/common/CMakeFiles/common.dir
+/Users/sriravic/Desktop/assignments/computergraphics_cosc177/assignment_04_final/assignment01/build/src/apps/CMakeFiles/01_raytrace.dir
+/Users/sriravic/Desktop/assignments/computergraphics_cosc177/assignment_04_final/assignment01/build/src/common/ext/glfw/src/CMakeFiles/glfw.dir

@@ -1,0 +1,16 @@
+{
+    "lookat_camera": { "from": [0,0.5,4] },
+    
+    "surfaces": [
+        
+        {
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  10, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "background": [1,1,1],
+    "background_txt": "models/pisa_latlong.pfm",
+    "image_samples": 15,
+    "path_max_depth": 0
+}

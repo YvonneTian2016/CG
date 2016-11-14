@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="GLFW" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\common\;CMake Files\src\common\ext\;CMake Files\src\common\ext\glfw\;CMake Files\src\common\ext\glfw\src\;CMake Files\src\apps\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw">
+         <Option output="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/bin/mk/libglfw3.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1" />
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include" />
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+            <Add directory="/Library/Frameworks" />
+            <Add directory="/System/Library/Frameworks" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw/src" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glew" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 glfw" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glfw/fast">
+         <Option output="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/bin/mk/libglfw3.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1" />
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.0.0/include" />
+            <Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+            <Add directory="/Library/Frameworks" />
+            <Add directory="/System/Library/Frameworks" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw/src" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glew" />
+            <Add directory="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src" />
+            <Add directory="/usr/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/yuantian/Documents/Homework/Computer\ Graphics/assignment01-build/src/common/ext/glfw/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01-build/src/common/ext/glfw/src/config.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/include/GLFW/glfw3.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/include/GLFW/glfw3native.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/clipboard.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_clipboard.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_gamma.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_init.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_joystick.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_monitor.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_platform.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_time.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/cocoa_window.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/context.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/gamma.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/init.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/input.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/internal.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/joystick.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/monitor.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/nsgl_context.m">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/nsgl_platform.h">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/time.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/window.c">
+         <Option target="glfw"/>
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\common\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/config.h.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfwConfig.cmake.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfwConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfw3.pc.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/config.h.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfwConfig.cmake.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfwConfigVersion.cmake.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/glfw3.pc.in">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/ext/glfw/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\common\ext\glfw\src\" />
+      </Unit>
+      <Unit filename="/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\apps\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

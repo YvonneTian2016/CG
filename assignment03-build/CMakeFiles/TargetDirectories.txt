@@ -1,0 +1,3 @@
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03-build/src/apps/CMakeFiles/03_animate.dir
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03-build/src/common/CMakeFiles/common.dir
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03-build/src/common/ext/glfw/src/CMakeFiles/glfw.dir

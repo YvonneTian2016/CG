@@ -1,0 +1,138 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/common.h
+string
+-
+vector
+-
+map
+-
+set
+-
+cassert
+-
+stdio.h
+-
+cstdarg
+-
+fstream
+-
+cstdio
+-
+typeinfo
+-
+debug.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/debug.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/debug.h
+set
+-
+tuple
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/ext/lodepng/lodepng.cpp
+lodepng.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/ext/lodepng/lodepng.h
+stdio.h
+-
+stdlib.h
+-
+fstream
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/ext/lodepng/lodepng.h
+string.h
+-
+vector
+-
+string
+-
+lodepng.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/ext/lodepng/lodepng.h
+iostream
+-
+lodepng.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/ext/lodepng/lodepng.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/image.cpp
+image.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/image.h
+lodepng.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/lodepng.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/image.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/common.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/vmath.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/json.cpp
+json.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/json.h
+picojson.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/picojson.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/json.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/common.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/picojson.h
+algorithm
+-
+cassert
+-
+cmath
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+iostream
+-
+iterator
+-
+map
+-
+string
+-
+vector
+-
+algorithm
+-
+sstream
+-
+float.h
+-
+limits.h
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/scene.cpp
+scene.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/scene.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/scene.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/common.h
+json.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/json.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/vmath.h
+image.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/image.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment02/src/common/vmath.h
+cmath
+-
+cstdlib
+-
+array
+-
+

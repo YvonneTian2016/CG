@@ -1,0 +1,5 @@
+/Users/yuantian/Downloads/assignment00/built/src/apps/CMakeFiles/00_build.dir
+/Users/yuantian/Downloads/assignment00/built/src/common/ext/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/yuantian/Downloads/assignment00/built/src/common/CMakeFiles/common.dir
+/Users/yuantian/Downloads/assignment00/built/src/common/ext/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/yuantian/Downloads/assignment00/built/src/common/ext/glfw/src/CMakeFiles/glfw.dir

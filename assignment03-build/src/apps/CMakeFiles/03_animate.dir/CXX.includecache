@@ -1,0 +1,138 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/apps/03_animate.cpp
+scene.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/apps/scene.h
+image.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/apps/image.h
+tesselation.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/apps/tesselation.h
+gls.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/apps/gls.h
+cstdio
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/common.h
+string
+-
+vector
+-
+map
+-
+set
+-
+cassert
+-
+stdio.h
+-
+cstdarg
+-
+fstream
+-
+cstdio
+-
+typeinfo
+-
+debug.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/debug.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/debug.h
+set
+-
+tuple
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glew/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glew/wglew.h
+windows.h
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glfw/include/GLFW/glfw3.h
+stddef.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/glcorearb.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+GLES3/gl3.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/gls.h
+glew.h
+-
+windows.h
+-
+ext/glew/glew.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glew/glew.h
+ext/glew/wglew.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glew/wglew.h
+GL/gl.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/GL/gl.h
+ext/glew/glew.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/ext/glew/glew.h
+GLFW/glfw3.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/GLFW/glfw3.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/image.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/common.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/vmath.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/json.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/common.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/scene.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/common.h
+json.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/json.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/vmath.h
+image.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/image.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/tesselation.h
+scene.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/scene.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment03/src/common/vmath.h
+cmath
+-
+cstdlib
+-
+array
+-
+

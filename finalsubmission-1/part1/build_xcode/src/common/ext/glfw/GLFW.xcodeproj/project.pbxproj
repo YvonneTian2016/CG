@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3074E4C5CE39419399711F89 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D4E30C8CA713466E893146A3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0D56C97285B54B57B205D46E /* CMake Rules */,
+			);
+			dependencies = (
+				163C625BA8504E6D957927F8 /* PBXTargetDependency */,
+				6EF28F4D80634C13B82C4E2D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EEE4C76B43414B1AB7025121 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 142C26E1271C4884A9B37273 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1D36CA93078B44FE9E90A597 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21469575DDF946E9BFBC7041 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 2818C7A4A9124EE0A0DA57AE /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2376F5DE787D49F9AECFA563 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/joystick.c */ = {isa = PBXBuildFile; fileRef = 8B86EAF975844761A968BD47 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/joystick.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2B5975FD11EE46A181133CC1 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 65EA38E20C1640F8B5072EBF /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		34C449E49511490BBDE979D2 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = EC164D2E85894E7BA899C3BD /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3EB2D8E058A947108D07B268 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 9B8269660EA44804A9DB70B5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4CAB4A9C36B14593AD679F39 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 84299AA48FCE4807A909A925 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		51422B58F27340F39385FB7F /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FB164F299582426C8965AB3D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		58B65E8E7B8C45E288380AF4 /* /Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src/config.h */ = {isa = PBXBuildFile; fileRef = E1D4DC5A177A4606B89B0DBD /* /Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src/config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		72717BA753D44B8498DF4D68 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 644B0DC2B23D4AE19071A230 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7532DADDC8D54B2F873427A3 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_clipboard.m */ = {isa = PBXBuildFile; fileRef = 27D18C37A8F94FAF82110748 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_clipboard.m */; settings = {COMPILER_FLAGS = ""; }; };
+		776CE777D728463EB2EA91C5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/gamma.c */ = {isa = PBXBuildFile; fileRef = A3A7CF45ADFB41F0958E5596 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7776F6558FA740E3BA3C7027 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_gamma.c */ = {isa = PBXBuildFile; fileRef = 42C26EF848A74E628DF7BF17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		82B5192207E94FE692D702F5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = AB4ADC38CD604EF79DC9F106 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A5502F23CA32455B835F9E45 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_platform.h */ = {isa = PBXBuildFile; fileRef = 2F03757454ED4D84A403B802 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B14F9A500BD343A3AC11C2BF /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 8F15DCCF7CB346F6B032D958 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		B1F4B00978444625BECBDF78 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 54A47B6500AD4A73A05FFB17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B30B779FCE754550A5D8A597 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/clipboard.c */ = {isa = PBXBuildFile; fileRef = 0B4233E5E79E4520B31A555D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/clipboard.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B98A312E36724C2B80AA7012 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 4BC9CFA596F443E2A894004E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		CF029255951B4C00873EFC2E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 73EB0A9838CA4EFEAD2F5E78 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		E28B74FCA3614BD2B93ACA4E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 30706AD7CF364E2E8FD88A17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E4380248209E4D17B2A46DAB /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 8A9B639F74224040AE5907F9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EED645426D6C49EBBE618D9F /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/time.c */ = {isa = PBXBuildFile; fileRef = E8AE802954C84DA4A849F18E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EF6EEA09F2E840969A2CC813 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 1120B07CC594434FBFE211A6 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD9AAF166100407AAF6BFEE3 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = B6E632A426FD4AB6B6F27CC9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1548D8E5FCA94661B2C2C348 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		1C15995B1A874A28BD49AB93 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		715E398F084849FE9BDA9559 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C46534CD385D4A458EDA26C6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D3D72C15EC1E42F9AC32C308 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2EEDF370C6554D44B77B6E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB66BB1806AA4809894D2B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1005DEDB6564E9189C95749;
+			remoteInfo = glfw;
+		};
+		9C64D4E79D084E7CAC33D64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB66BB1806AA4809894D2B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE4C76B43414B1AB7025121;
+			remoteInfo = ZERO_CHECK;
+		};
+		D69106AD99764D3D9C8ABA0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB66BB1806AA4809894D2B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE4C76B43414B1AB7025121;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4233E5E79E4520B31A555D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clipboard.c; path = src/clipboard.c; sourceTree = SOURCE_ROOT; };
+		1120B07CC594434FBFE211A6 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		27D18C37A8F94FAF82110748 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_clipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_clipboard.m; path = src/cocoa_clipboard.m; sourceTree = SOURCE_ROOT; };
+		2818C7A4A9124EE0A0DA57AE /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		2F03757454ED4D84A403B802 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_platform.h; path = src/nsgl_platform.h; sourceTree = SOURCE_ROOT; };
+		30706AD7CF364E2E8FD88A17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		42C26EF848A74E628DF7BF17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_gamma.c; path = src/cocoa_gamma.c; sourceTree = SOURCE_ROOT; };
+		4BC9CFA596F443E2A894004E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		53F537F7DF564B6495B01662 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		54A47B6500AD4A73A05FFB17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		644B0DC2B23D4AE19071A230 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		65EA38E20C1640F8B5072EBF /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		72115A4653EC46E2B617778C /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		73EB0A9838CA4EFEAD2F5E78 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		84299AA48FCE4807A909A925 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		8A9B639F74224040AE5907F9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		8B86EAF975844761A968BD47 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joystick.c; path = src/joystick.c; sourceTree = SOURCE_ROOT; };
+		8F15DCCF7CB346F6B032D958 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		9B8269660EA44804A9DB70B5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		A3A7CF45ADFB41F0958E5596 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gamma.c; path = src/gamma.c; sourceTree = SOURCE_ROOT; };
+		AB4ADC38CD604EF79DC9F106 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		B6E632A426FD4AB6B6F27CC9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D901A8CD3FFA46C1BF162A5E /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D4DC5A177A4606B89B0DBD /* /Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = ../../../../build_xcode/src/common/ext/glfw/src/config.h; sourceTree = SOURCE_ROOT; };
+		E8AE802954C84DA4A849F18E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = src/time.c; sourceTree = SOURCE_ROOT; };
+		EC164D2E85894E7BA899C3BD /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		FB164F299582426C8965AB3D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13CB33132C6A4C8D84E8789F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1D4DC5A177A4606B89B0DBD /* /Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src/config.h */,
+				AB4ADC38CD604EF79DC9F106 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3.h */,
+				1120B07CC594434FBFE211A6 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/include/GLFW/glfw3native.h */,
+				B6E632A426FD4AB6B6F27CC9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_platform.h */,
+				644B0DC2B23D4AE19071A230 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/internal.h */,
+				2F03757454ED4D84A403B802 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_platform.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		38D62E8B96C2467683034A2C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5CEBB20C9A0646D3958EE6EE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		733F0B59237B4C7186452E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D901A8CD3FFA46C1BF162A5E /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889A49044A89479792FC46DF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				38D62E8B96C2467683034A2C /* CMake Rules */,
+				53F537F7DF564B6495B01662 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8D231DC10D824B6C987A3481 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B4233E5E79E4520B31A555D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/clipboard.c */,
+				27D18C37A8F94FAF82110748 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_clipboard.m */,
+				42C26EF848A74E628DF7BF17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_gamma.c */,
+				84299AA48FCE4807A909A925 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_init.m */,
+				65EA38E20C1640F8B5072EBF /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_joystick.m */,
+				73EB0A9838CA4EFEAD2F5E78 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_monitor.m */,
+				30706AD7CF364E2E8FD88A17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_time.c */,
+				4BC9CFA596F443E2A894004E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_window.m */,
+				EC164D2E85894E7BA899C3BD /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/context.c */,
+				A3A7CF45ADFB41F0958E5596 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/gamma.c */,
+				54A47B6500AD4A73A05FFB17 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/init.c */,
+				2818C7A4A9124EE0A0DA57AE /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/input.c */,
+				8B86EAF975844761A968BD47 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/joystick.c */,
+				8A9B639F74224040AE5907F9 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/monitor.c */,
+				8F15DCCF7CB346F6B032D958 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_context.m */,
+				E8AE802954C84DA4A849F18E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/time.c */,
+				9B8269660EA44804A9DB70B5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B0319AA3916C43B4BF1EF934 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3F7FFB166624523BDD56BBE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F2EC5812CE2E42BCBF6A8B96 /* ZERO_CHECK */,
+				889A49044A89479792FC46DF /* ALL_BUILD */,
+				FCAED38130624B2BA1BE134D /* glfw */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		ED979F5A97DA47679047973B = {
+			isa = PBXGroup;
+			children = (
+				C3F7FFB166624523BDD56BBE /* Sources */,
+				B0319AA3916C43B4BF1EF934 /* Resources */,
+				733F0B59237B4C7186452E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EC5812CE2E42BCBF6A8B96 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				5CEBB20C9A0646D3958EE6EE /* CMake Rules */,
+				72115A4653EC46E2B617778C /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		FCAED38130624B2BA1BE134D /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				8D231DC10D824B6C987A3481 /* Source Files */,
+				13CB33132C6A4C8D84E8789F /* Header Files */,
+				FB164F299582426C8965AB3D /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1005DEDB6564E9189C95749 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67EC9FC9AFF49E9A8860646 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				1897F6591714435ABA0378CF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2A9BA23DD841CDA289D84D /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = D901A8CD3FFA46C1BF162A5E /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB66BB1806AA4809894D2B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 83820C3A58A74D84BF414130 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1C15995B1A874A28BD49AB93 /* Debug */,
+				1548D8E5FCA94661B2C2C348 /* Release */,
+				715E398F084849FE9BDA9559 /* MinSizeRel */,
+				C46534CD385D4A458EDA26C6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ED979F5A97DA47679047973B;
+			projectDirPath = ../../../../../src/common/ext/glfw;
+			projectRoot = "";
+			targets = (
+				3074E4C5CE39419399711F89 /* ALL_BUILD */,
+				EEE4C76B43414B1AB7025121 /* ZERO_CHECK */,
+				E1005DEDB6564E9189C95749 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D56C97285B54B57B205D46E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sriravic/Downloads/final\\ project/build_xcode/src/common/ext/glfw -f /Users/sriravic/Downloads/final\\ project/build_xcode/src/common/ext/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1D36CA93078B44FE9E90A597 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sriravic/Downloads/final\\ project/build_xcode/src/common/ext/glfw -f /Users/sriravic/Downloads/final\\ project/build_xcode/src/common/ext/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3C37CBAC8F1C4B46B23EF164 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D2AEBC7703854E9E86048C03 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1897F6591714435ABA0378CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30B779FCE754550A5D8A597 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/clipboard.c */,
+				7532DADDC8D54B2F873427A3 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_clipboard.m */,
+				7776F6558FA740E3BA3C7027 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_gamma.c */,
+				4CAB4A9C36B14593AD679F39 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_init.m */,
+				2B5975FD11EE46A181133CC1 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_joystick.m */,
+				CF029255951B4C00873EFC2E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_monitor.m */,
+				E28B74FCA3614BD2B93ACA4E /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_time.c */,
+				B98A312E36724C2B80AA7012 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/cocoa_window.m */,
+				34C449E49511490BBDE979D2 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/context.c */,
+				776CE777D728463EB2EA91C5 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/gamma.c */,
+				B1F4B00978444625BECBDF78 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/init.c */,
+				21469575DDF946E9BFBC7041 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/input.c */,
+				2376F5DE787D49F9AECFA563 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/joystick.c */,
+				E4380248209E4D17B2A46DAB /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/monitor.c */,
+				B14F9A500BD343A3AC11C2BF /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/nsgl_context.m */,
+				EED645426D6C49EBBE618D9F /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/time.c */,
+				3EB2D8E058A947108D07B268 /* /Users/sriravic/Downloads/final project/src/common/ext/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163C625BA8504E6D957927F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1005DEDB6564E9189C95749 /* glfw */;
+			targetProxy = 2EEDF370C6554D44B77B6E14 /* PBXContainerItemProxy */;
+		};
+		6EF28F4D80634C13B82C4E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE4C76B43414B1AB7025121 /* ZERO_CHECK */;
+			targetProxy = D69106AD99764D3D9C8ABA0D /* PBXContainerItemProxy */;
+		};
+		EC2A9BA23DD841CDA289D84D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE4C76B43414B1AB7025121 /* ZERO_CHECK */;
+			targetProxy = 9C64D4E79D084E7CAC33D64B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BE1E47AFFA4DE7B2295E52 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sriravic/Downloads/final project/bin/xcode/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glfw/src\"", "\"/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		04E24FAE368548E6BA1A4586 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		062C11F2565948A5ADA1D561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sriravic/Downloads/final project/bin/xcode/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glfw/src\"", "\"/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "     -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		0F4E9798961C41BE9A18EFE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		1B455EB12B5D4FE895D39AC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/build";
+			};
+			name = Release;
+		};
+		2A387E1573B84370B1977062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/build";
+			};
+			name = Debug;
+		};
+		78FD8BB572A345279BC22F78 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		8867EE2093ED4B20BF4CC2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sriravic/Downloads/final project/bin/xcode/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glfw/src\"", "\"/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		8BC0704691B5433EAD567902 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		973DBD5FC1F24CD690BE3010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		AB60D198496E4BAD9F60968C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		BDED01E062C04BCE90428CEF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		BFCBD9A275CB462D91DBC55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		EC3467437B3D4FE4A520EF21 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sriravic/Downloads/final project/bin/xcode/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glfw/src\"", "\"/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src\"", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   -Wall";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		EE8F11A058E44EE79F01A9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/sriravic/Downloads/final project/src\"", "\"/Users/sriravic/Downloads/final project/src/apps\"", "\"/Users/sriravic/Downloads/final project/src/common\"", "\"/Users/sriravic/Downloads/final project/src/common/ext/glew\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F7139851D42F4DCFA67BB911 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/sriravic/Downloads/final project/build_xcode/src/common/ext/glfw/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142C26E1271C4884A9B37273 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973DBD5FC1F24CD690BE3010 /* Debug */,
+				BFCBD9A275CB462D91DBC55D /* Release */,
+				04E24FAE368548E6BA1A4586 /* MinSizeRel */,
+				8BC0704691B5433EAD567902 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83820C3A58A74D84BF414130 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A387E1573B84370B1977062 /* Debug */,
+				1B455EB12B5D4FE895D39AC6 /* Release */,
+				F7139851D42F4DCFA67BB911 /* MinSizeRel */,
+				BDED01E062C04BCE90428CEF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4E30C8CA713466E893146A3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F11A058E44EE79F01A9E4 /* Debug */,
+				AB60D198496E4BAD9F60968C /* Release */,
+				78FD8BB572A345279BC22F78 /* MinSizeRel */,
+				0F4E9798961C41BE9A18EFE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E67EC9FC9AFF49E9A8860646 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062C11F2565948A5ADA1D561 /* Debug */,
+				8867EE2093ED4B20BF4CC2A5 /* Release */,
+				EC3467437B3D4FE4A520EF21 /* MinSizeRel */,
+				00BE1E47AFFA4DE7B2295E52 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB66BB1806AA4809894D2B97 /* Project object */;
+}

@@ -1,0 +1,21 @@
+{
+    "lookat_camera": { "from": [0,0.5,4] },
+    "surfaces": [
+         { 
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "isquad": true, "radius": 100,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100, "kr": [0.5,0.5,0.5] } 
+        }, 
+
+       { 
+            "frame": { "o": [0,-1,0] },
+            "iscylinder": true, "radius": 0.4,
+            "material": { "kd": [1,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 20} 
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [3,8,-10] }, "intensity": [30,30,30] },
+        { "frame": { "o": [-4,10,5] }, "intensity": [30,30,30] }    
+    ],
+    "image_samples": 3
+}

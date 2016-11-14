@@ -1,0 +1,85 @@
+{
+    "lookat_camera": { "from": [3,8,3] },
+    "surfaces": [
+        {
+            "frame": { "o": [-4,0,-1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-4,0,1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-2,0,-1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 1,
+            "subdivision_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-2,0,1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 1,
+            "subdivision_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [0,0,-1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 2,
+            "subdivision_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [0,0,1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 2,
+            "subdivision_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [2,0,-1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 3,
+            "subdivision_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [2,0,1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 3,
+            "subdivision_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [4,0,-1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 4,
+            "subdivision_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [4,0,1], "y": [0,0,-1], "z": [0,1,0] },
+            "radius": 0.9,
+            "isquad": true,
+            "subdivision_level": 4,
+            "subdivision_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,5,0] }, "intensity": [20,20,20] }
+    ]}

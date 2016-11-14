@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps/01_raytrace.cpp
+intersect.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps/intersect.h
+scene.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/apps/scene.h
+iostream
+-
+thread
+-
+random
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/common.h
+string
+-
+vector
+-
+map
+-
+set
+-
+cassert
+-
+stdio.h
+-
+cstdarg
+-
+fstream
+-
+cstdio
+-
+typeinfo
+-
+debug.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/debug.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/debug.h
+set
+-
+tuple
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/image.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/common.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/vmath.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/intersect.h
+scene.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/scene.h
+algorithm
+-
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/json.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/common.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/scene.h
+common.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/common.h
+json.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/json.h
+vmath.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/vmath.h
+image.h
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/image.h
+
+/Users/yuantian/Documents/Homework/Computer Graphics/assignment01/src/common/vmath.h
+cmath
+-
+cstdlib
+-
+array
+-
+

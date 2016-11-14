@@ -1,0 +1,28 @@
+**********************************Run Instructions***************************
+
+NOTE:
+
+######################################################
+Code that contains the following features : part1.zip
+######################################################
+
+1.Soft Shadow
+  Using the 03_plane.json to run directly, you will see the soft shadow feature results.In the “raytrace_ray” method, you can change the variable num_sample, which means the number of samples you want to implement. Now the value is 500. You can change it to different value and see the different soft shadow results.
+
+2.Texture Tilling
+  Firstly, you need to choose a picture you want to use it as the texture.And add “kd_txt” to the material volume in the json file of the scene. We now use the smile.png to be the texture and have added it in the 02_quad.json file. And then set input parameter tile of method “lookup_scaled_texture” to be true.Then run the 02_quad.json, you will get the tilling result. 
+And if you want to change the tilling range,you could just change the variable range in the intersect.h file.
+
+3.Projective Texture Mapping
+  Similar with the Texture Tilling, you need to choose a picture to be the texture. And add ”kd_txt” to the material volume in the json file of the scene. We now use the check.png to be the texture and have added it in the 03_plane.json file. And then set input parameter tile of method ”lookup_scaled_texture” to be false. Then run the 03_plane.json, you will get  mapping result. In the "intersect(Scene* scene, ray3f ray)" method of the intersect.h file, change the value of "projection" variable to use either spherical, cylindrical or cubical projection mapping.
+
+######################################################
+Code that contains the following features : part2.zip
+######################################################
+
+4. Mesh intersection : handled in the intersect.h function for both general ray intersection and shadow ray intersection methods.
+5. Environment mapping : Run application with 03_env.json
+6. Indirect illumination : Run application with cornell-box-scene.json. The MAX_DEPTH macro controls the number of bounces done.
+
+
+
